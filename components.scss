@@ -9,10 +9,12 @@
 .body{}
 
 .bar{}
+.control_set{} /* controller */
 
 .nav
 
 .hero{}
+.featured{}
 
 /* main visual or big image */
 .keyvisual{}
@@ -20,6 +22,9 @@
 .main_image{}
 
 .slider{}
+.slideshow{}
+
+.billboard{} /* for banner-like box-out area... */
 
 /* contents */
 .wrapper{}
@@ -31,11 +36,13 @@
 .article{}
 .story{}
 
-.textbox{}
-.textarea{}
-.textbody{}
+	.textbox{}
+	.textarea{}
+	.textbody{}
 
-.header{}
+		.highlight{}
+
+.heading{}
 .subheader{}
 
 .snippet{}
@@ -54,6 +61,12 @@
 .supp{} /* supp is for "supplementary" */
 .adr{} /* adr for "address" */
 
+.quote{}
+.cite{}
+
+.list{}
+.matric{}
+
 /* block or module */
 .block{}
 .module{} /* or "mod" */
@@ -62,9 +75,6 @@
 .nub{}
 
 .attr
-
-/* image */
-.figure{}
 
 /* if subject is related to something */
 .related{}
@@ -77,10 +87,13 @@
 /* error warning or simple note */
 .error{}
 .warning{}
+.alart{}
 .att{} /* att for attention */
 
 .note{}
 .point{}
+
+.help
 
 /* size */
 .gigantic{}
@@ -93,3 +106,12 @@
 .tiny{}
 .mini{}
 .nano{}
+
+/* object */
+.icon{}
+.figure{} /* image */
+.form{}
+.progress_bar{}
+.breadcrumb{}
+.label{}
+.tag{}
