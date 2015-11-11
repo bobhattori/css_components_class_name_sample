@@ -1,3 +1,9 @@
+/* miscellaneous */
+.home{}
+.page{}
+.layer{}
+.lev01{}, .lev02{}, ...
+
 /* header, logo, tagline... */
 
 .logo{}
@@ -42,6 +48,7 @@
 	.textbox{}
 	.textarea{}
 	.textbody{}
+	.textunit
 
 		.highlight{}
 
@@ -62,7 +69,7 @@
 .secondary{}
 
 .supp{} /* supp is for "supplementary" */
-.adr{} /* adr for "address" */
+.adr{} or .addr{}/* adr for "address" */
 
 .quote{}
 .cite{}
@@ -78,6 +85,17 @@
 .nub{}
 
 .attr
+
+/* columns */
+.columns
+
+.cols{}
+	.col{}
+
+.row{}
+	.grid-1{} 〜 .grid-12{}
+
+.gutter{}
 
 /* if subject is related to something */
 .related{}
